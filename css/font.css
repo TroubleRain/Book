@@ -1,5 +1,10 @@
 @font-face {
   font-family: "name";
-  src: url("") format("truetype");
-  font-weight: value;
+  src: url("../fonts/Tahoma") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "name";
+  src: url("../fonts/Tahoma-Bold") format("truetype");
+  font-weight: 700;
 }
