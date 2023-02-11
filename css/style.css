@@ -95,7 +95,6 @@ legend {
   padding: 0px 5px;
   margin: 0px auto;
   min-height: 20px;
-  border: 1px solid red;
 }
 
 body {
@@ -447,4 +446,30 @@ body {
 .readers__img img {
   width: 100%;
   height: 100%;
+}
+
+.footer {
+  padding: 60px 0 90px 0;
+  background: #f1f1f1;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.footer__list {
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer__item:not(:last-child) {
+  margin-bottom: 15px;
 }
