@@ -102,6 +102,21 @@ body {
   color: #202020;
 }
 
+@media (max-width: 992px) {
+  .container {
+    max-width: 760px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 480px;
+  }
+}
 @font-face {
   font-family: "name";
   src: url("../fonts/Tahoma") format("truetype");
@@ -147,6 +162,11 @@ body {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  .list {
+    display: none;
+  }
+}
 .hero {
   padding: 62px 0px 70px 0px;
 }
@@ -294,6 +314,153 @@ body {
   font-family: "Myriad Pro";
 }
 
+@media (max-width: 992px) {
+  .hero__container {
+    -webkit-column-gap: 32px;
+       -moz-column-gap: 32px;
+            column-gap: 32px;
+  }
+  .hero__img {
+    width: 298px;
+    height: 418px;
+  }
+  .hero__name {
+    margin-bottom: 13px;
+    font-size: 22p;
+    line-height: 1;
+  }
+  .hero__text {
+    margin-bottom: 28px;
+    font-size: 24px;
+  }
+  .hero__about {
+    margin-bottom: 39px;
+    line-height: 1;
+  }
+  .hero__product-pricing {
+    margin-bottom: 39px;
+  }
+  .hero__btn {
+    padding: 18px 43px;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .hero__buy {
+    padding: 18px 43px;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .title {
+    margin-bottom: 10px;
+    font-size: 45px;
+    line-height: 1;
+  }
+  .price {
+    font-size: 55px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 992px) and (max-width: 768px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .hero__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__img {
+    width: 560px;
+    height: 788px;
+    margin-bottom: 60px;
+  }
+  .hero__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .hero__name {
+    margin-bottom: 13px;
+  }
+  .hero__text {
+    margin-bottom: 28px;
+  }
+  .hero__about {
+    margin-bottom: 39px;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 992px) and (max-width: 768px) and (max-width: 576px) {
+  .hero__img {
+    width: 477px;
+    height: 671px;
+  }
+  .hero__name {
+    font-size: 18px;
+  }
+  .hero__text {
+    font-size: 20px;
+  }
+  .hero__about {
+    font-size: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero__product-pricing {
+    -webkit-column-gap: 53px;
+       -moz-column-gap: 53px;
+            column-gap: 53px;
+    font-size: 55px;
+  }
+  .hero__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 19px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__btn {
+    width: 100%;
+  }
+  .hero__buy {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
 .about-book {
   background-color: #f1f1f1;
   padding: 95px 0;
@@ -354,6 +521,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border: 1px solid #f3f3f3;
+  -webkit-box-shadow: 0px 1px 120px 0px rgba(161, 161, 161, 0.07);
+          box-shadow: 0px 1px 120px 0px rgba(161, 161, 161, 0.07);
+  border-radius: 10px;
 }
 
 .card {
@@ -419,6 +590,21 @@ body {
   line-height: 24px;
 }
 
+@media (max-width: 992px) {
+  .about-book__container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 62px;
+  }
+  .about-book__content {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100% 0 0px;
+            flex: 100% 0 0;
+  }
+  .about-book__card {
+    max-width: 552px;
+  }
+}
 .readers {
   padding: 85px 0 109px 0;
 }
