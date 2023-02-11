@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "name";
+  src: url("") format("truetype");
+  font-weight: value;
+}
